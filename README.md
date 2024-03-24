@@ -1,7 +1,8 @@
 # Face-detection-web-app
 Welcome to the Face Detection Web App! This web application allows you to upload images and performs face detection on them using OpenCV. It provides a simple interface for users to interact with and view the results.
 
-![Faces Detected]()
+![Faces Detected](https://github.com/dhanyashreem2400/Face-detection-web-app/blob/main/iisc%20web%20dev/static/temp/2.png)
+
 ## Features
 
 - **Upload Images**: Users can upload images from their devices.
@@ -20,7 +21,7 @@ Welcome to the Face Detection Web App! This web application allows you to upload
 https://github.com/dhanyashreem2400/Face-detection-web-app
 
 2. Navigate to the project directory:
-cd iisc web dev
+   `cd iisc web dev`
 
 3. Install dependencies:
    `pip install -r requirements.txt `
