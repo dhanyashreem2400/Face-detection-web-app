@@ -30,14 +30,12 @@ def upload():
     for (x, y, w, h) in faces:
         cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
 
-    # Save the uploaded image to a temporary directory
     temp_dir = os.path.join(app.root_path, 'static', 'temp')
     os.makedirs(temp_dir, exist_ok=True)
     res_filename = secure_filename(file.filename)
     result_filepath = os.path.join(temp_dir, res_filename)
     cv2.imwrite(result_filepath, img)
 
-    # Generate the URL for the result image
     result_image_url = url_for('static', filename='temp/' + res_filename)
 
     return render_template("result.html",filename=res_filename, result_image_url=result_image_url)
