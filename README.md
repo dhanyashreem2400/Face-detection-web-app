@@ -23,8 +23,7 @@ https://github.com/dhanyashreem2400/Face-detection-web-app
 2. Navigate to the project directory:
    `cd iisc web dev`
 
-3. Install dependencies:
-   `pip install -r requirements.txt `
+3. Install dependencies - OS, Numpy, Flask, OpenCV
 
 4. Run the Flask application:
     `cd app.py`
